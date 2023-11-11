@@ -8,6 +8,8 @@ function getWord() {
     return words[Math.floor(Math.random() * words.length)]
 }
 
+
+
 function App(){
     const [wordToGuess, setWordToGuess] = useState(getWord)
 
